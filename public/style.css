@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+    overflow-x: hidden;
+
+}
+.main{
+    background: -webkit-linear-gradient(left,#0073e6,#0059b3,#004080
+    , #003366);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100vh;
+}
+.center-div{
+    padding-top: 10%;
+}
+.btn.btn-success{
+    padding: .4em 2em;
+}
+form{
+    padding: 0 3em ;
+}
+#login.title>span{
+    font-size: .8em;
+}
+.admin-control {
+    text-align: center;
+    margin-top: 20px;
+}
+.admin-link {
+    color: #0529ad;
+    text-decoration: none;
+    font-weight: bold;
+}
+.admin-link:hover {
+    text-decoration: underline;
+}
+.signup{
+    color: #0b63ab;
+    text-decoration: none;
+}
+.signup-txt{
+    font-weight: 600;
+}
+
+#logbtn{
+    background: -webkit-linear-gradient(left, #003366,#004080,#0059b3);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.logout,h6{
+    color: #000000;
+}
